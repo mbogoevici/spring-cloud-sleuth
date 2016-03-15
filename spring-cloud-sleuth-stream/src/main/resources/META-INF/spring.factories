@@ -1,5 +1,6 @@
 # Auto Configuration
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+org.springframework.cloud.sleuth.metric.TraceMetricsAutoConfiguration,\
 org.springframework.cloud.sleuth.stream.SleuthStreamAutoConfiguration
 
 # Environment Post Processor
